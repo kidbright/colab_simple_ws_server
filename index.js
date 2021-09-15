@@ -3,7 +3,7 @@ const WebSocket = require('ws');
 
 const ws_port = 3232;
 
-log('websocket server listening on port ' + ws_port);
+log('websocket server listening on port ' + ws_port, 'info');
 const ws_server = new WebSocket.Server({
 	port: ws_port
 });
